@@ -1,17 +1,17 @@
 package DAO;
 
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class conexao {
-
-    public conexao() {
-
-    }
-
-    public static Connection getConectaMYSQL() {
+	
+	public conexao() {
+		
+		
+	}
+	
+	public static Connection getConectaMYSQL() {
         try {
         final String DRIVER = "com.mysql.jdbc.Driver";
         Class.forName(DRIVER);
@@ -26,5 +26,7 @@ public class conexao {
             System.out.println("Banco não encontrado");
             return null;
         }
-    }
+		
+	}
+
 }
