@@ -6,12 +6,21 @@
 <meta charset="ISO-8859-1">
 <title>Snake Game</title>
 <style type="text/css">
+
 	#canvasJogo{
 	position:absolute;
 	left:45%;
 	top:30%;
 	margin-left:-100px;
 	magin-top:-30px;
+
+
+	
+	
+	
+	
+	
+
 	/* reset de margens */
 * {
     margin: 0;
@@ -57,11 +66,25 @@ body, html {
 p {
     margin-bottom: 1.5em;
 }
-	}
+
+
 </style>
 <script src = "cobra.js" type="text/javascript"> </script>
 </head>
 <body>
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      		<a class="navbar-brand" href="#">WebSiteName</a>
+    		</div>
+    		<ul class="nav navbar-nav">
+      		<li class="active"><a href="#">Home</a></li>
+      		<li><a href="#">Page 1</a></li>
+      		<li><a href="#">Page 2</a></li>
+      		<li><a href="#">Page 3</a></li>
+    		</ul>
+  		</div>
+	</nav>
 	<canvas id="canvasJogo" width="400" height="400">
 		</canvas>
 		<div id="fundo-externo">
