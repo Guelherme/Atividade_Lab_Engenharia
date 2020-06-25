@@ -5,20 +5,20 @@ import java.io.Serializable;
 public class Usuario implements Serializable {
     private Integer codigo;
     private String nome;
-    private String usuario;
+    private String login;
     private String senha;
-    private Integer telefone;
+    private String telefone;
     private String email;
 
     public Usuario() {
         this(null, null, null, null, null, null);
     }
 
-    public Usuario(Integer codigo, String nome, String usuario, String senha, 
-            Integer telefone, String email) {
+    public Usuario(Integer codigo, String nome, String login, String senha, 
+            String telefone, String email) {
                 this.codigo = codigo;
                 this.nome = nome;
-                this.usuario = usuario;
+                this.login = login;
                 this.senha = senha;
                 this.telefone = telefone;
                 this.email = email;
@@ -40,12 +40,12 @@ public class Usuario implements Serializable {
         this.nome = nome;
     }
 
-    public String getUsuario() {
-        return usuario;
+    public String getlogin() {
+        return login;
     }
 
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getSenha() {
@@ -56,11 +56,11 @@ public class Usuario implements Serializable {
         this.senha = senha;
     }
 
-    public Integer getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(Integer telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
