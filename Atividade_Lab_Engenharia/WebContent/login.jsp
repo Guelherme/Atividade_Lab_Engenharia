@@ -31,8 +31,9 @@
           </div>
           <br>
           <div>
-              <button type="submit" class="btn btn-primary" name="cmd" value="adicionar">Adicionar</button>
-              <button type="submit" class="btn btn-secondary" name="cmd" value="pesquisar">Pesquisar</button>
+              <button type="submit" class="btn btn-primary" name="cmd" value="adicionar">Entrar</button>
+              
+              <button type="submit" class="btn btn-secondary" name="cmd" value="pesquisar">Esqueceu a Senha</button>
           </div>
         <br>
     </form>
